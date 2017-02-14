@@ -1,0 +1,11 @@
+/* google font "noto serif" */
+
+body {
+	font-family: 'Noto Serif', serif;
+}
+
+/* navbar */
+
+.navbar {
+	margin-bottom: 0;
+}
