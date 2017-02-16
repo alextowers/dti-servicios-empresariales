@@ -9,3 +9,37 @@ body {
 .navbar {
 	margin-bottom: 0;
 }
+
+/* navbar links cmyk */
+
+.cmyk-c:hover {
+	background-color: #7FFFFF;
+}
+
+.cmyk-active-c {
+	background-color: #7FFFFF;
+}
+
+.cmyk-m:hover {
+	background-color: #FF7FFF;
+}
+
+.cmyk-active-m {
+	background-color: #FF7FFF;
+}
+
+.cmyk-y:hover {
+	background-color: #FFFF7F;
+}
+
+.cmyk-active-y {
+	background-color: #FFFF7F;
+}
+
+.cmyk-k:hover {
+	background-color: #7F7F7F;
+}
+
+.cmyk-active-K {
+	background-color: #7F7F7F;
+}

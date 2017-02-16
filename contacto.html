@@ -1,66 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>DTI Servicios Empresariales - Contacto</title>
+	<title>DTI Servicios Empresariales</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 <body>
-	<header>
-		<div class="topleft">
-			<p class="phonetext">Telefono: Horario:</p>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">DTI Servicios Empresariales</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">	
+					<li class="cmyk-c"><a href="nosotros.html">Nosotros</a></li>
+					<li class="cmyk-m"><a href="productos.html">Productos</a></li>
+					<li class="cmyk-y"><a href="clientes.html">Clientes</a></li>
+					<li class="cmyk-active-k"><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="topright"><span><img src="#" alt="facebook" class="fblogo"></span><span><img src="#" alt="mail" class="maillogo"></span></div>
-	</header>
-	<nav class="mainnav">
-		<ul>
-			<li><a href="nosotros.html">Nosotros</a></li>
-			<li><a href="productos.html">Productos</a></li>
-			<li><a href="index.html"><img src="#" alt="dtilogo" class="logonav"></a></li>
-			<li><a href="clientes.html">Clientes</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
-		</ul>
 	</nav>
-	<main>
-		<h1>Contactanos</h1>
-		<div class="msjcorreo">
-		<h2>Envia un mensaje</h2>
-			<form>
-				<input type="text" name="nombre" placeholder="Nombre"><br>
-				<input type="text" name="email" placeholder="E-mail"><br>
-				<input type="text" name="msj" placeholder="Mande su mensaje"><br>
-				<!-- input del archivo, no necesario -->
-				<button type="button" onclick="alert('Mensaje enviado')">Enviar</button>
-			</form>
+	<div class="jumbotron">
+		<div class="container">
+			
 		</div>
-		<div class="gmap">
-			<h2>Ubicación</h2>
-			<div class="map"><!-- ubicacion en google maps --></div>
-			<p><!-- datos de la empresa --></p>
+	</div>
+	<main>
+		<div class="container">
+			<h1 class="text-center">Nuestros servicios</h1>
+			<div class="row">
+				<div class="col-md-8"><img src="" alt=""></div>
+				<div class="col-md-4"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias hic ipsum illum nisi saepe. Nam facere voluptatum magni ab aliquid, mollitia molestiae reprehenderit exercitationem dignissimos unde ea laudantium accusantium, eum?</p></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nostrum itaque aut, inventore explicabo, incidunt quo. Architecto voluptates obcaecati atque dolores perferendis commodi repellendus, saepe, neque placeat praesentium cupiditate maxime!</p></div>
+				<div class="col-md-8"><img src="" alt=""></div>
+			</div>
 		</div>
 	</main>
 	<footer>
-		<form>
-			<label>Mandanos tus datos: </label><input type="text" name="email" placeholder="e-mail"><button type="button" onclick="alert('Muchas gracias!')">Enviar</button>
-		</form>
-		<div>
-			<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-md-offset-4">
+					<form action="" class="form-inline">
+						<div class="form-group">
+							<label for="inputEmail">Mandanos tu email</label>
+							<input type="text" class="form-control" id="inputEmail" placeholder="E-mail">
+							<button type="button" onclick="alert('Muchas gracias!)">Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="footerline">
+				</div>
+			</div>
+			<div class="row">
+				
+			</div>
 		</div>
+	</footer>
+	<!-- <footer>
 		<div class="bottomleft"><p class="phonetext">Telefono: Horario:</p></div>
 		<div class="bottomcenter"><img src="#" alt="logodti"></div>
 		<div class="bottomright"><span><img src="#" alt="facebook" class="fblogo"></span><span><img src="#" alt="mail" class="maillogo"></span></div>
-	</footer>
+	</footer> -->
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
