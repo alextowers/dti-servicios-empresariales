@@ -16,7 +16,7 @@ catch(PDOException $e)
     }
 
 $sql = "INSERT INTO clients (name_client, phone, email, message, file, remembertoken)
-VALUES ($_POST["name_client"], $_POST["phone"], $_POST["email"], $_POST["message"], $_POST["file"], $_POST["remembertoken"])";
+VALUES ($_POST["name_client"], $_POST["phone"], $_POST["email"], $_POST["message"], $_POST["file"], $_POST["remembertoken"]);"
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
