@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -97,31 +97,31 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h2 class="text-center">Envia un mensaje</h2>
-					<form>
+					<form action="mail.php" method="post">
 						<div class="form-group">
 						<label for="exampleInputName1">Nombre de la empresa</label>
-							<input type="text" class="form-control" id="exampleInputEmail1">
+							<input type="text" class="form-control" id="exampleInputEmail1" name="name_client">
 						</div>
 						<div class="form-group">
 							<label for="exampleInputTel1">Telefono</label>
-							<input type="text" class="form-control" id="exampleInputPassword1">
+							<input type="text" class="form-control" id="exampleInputPassword1" name="phone">
 						</div>
 						<div class="form-group">
 							<label for="exampleInputEmail1">Correo electronico</label>
-							<input type="email" class="form-control" id="exampleInputPassword1">
+							<input type="email" class="form-control" id="exampleInputPassword1" name="email">
 						</div>
 						<div class="form-group">
 							<label for="exampleInputMsj1">Mensaje</label>
-							<textarea class="form-control" rows="3"></textarea>
+							<textarea class="form-control" rows="3" name="message"></textarea>
 						</div>
 						<div class="form-group">
 							<label for="exampleInputFile1">Envianos tu archivo</label>
-							<input type="file" id="exampleInputFile1">
+							<input type="file" id="exampleInputFile1" name="file">
 							<p class="help-block">Preferencia archivos .jpg</p>
 						</div>
 						<div class="checkbox">
 							<label>
-								<input type="checkbox"> Suscribirse al boletin
+								<input type="checkbox" name="remembertoken"> Suscribirse al boletin
 							</label>
 						</div>
 						<button type="submit" class="btn btn-default">Enviar</button>
@@ -136,17 +136,6 @@
 	</main>
 	<footer>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-5 col-md-offset-4">
-					<form action="" class="form-inline">
-						<div class="form-group">
-							<label for="inputEmail">Mandanos tu email</label>
-							<input type="text" class="form-control" id="inputEmail" placeholder="E-mail">
-							<button type="button" onclick="alert('Muchas gracias!')">Enviar</button>
-						</div>
-					</form>
-				</div>
-			</div>
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<hr class="footerline">
