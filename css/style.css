@@ -2,7 +2,6 @@
 
 body {
 	font-family: 'Noto Serif', serif;
-	padding-top: 50px;
 }
 
 /* navbar */
@@ -45,4 +44,7 @@ body {
 	background-color: rgba(127,127,127,.7);
 }
 
-/* jumbotron image */
+/* section padding */
+.container {
+	padding-top: 50px;
+}
