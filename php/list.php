@@ -8,7 +8,7 @@ try {
     $sql = $conn->query('SELECT * FROM clients');
     foreach($sql as $row)
     {
-    echo $row['email'] . "\n";
+    echo $row['email'] . "<br>";
     }
 
     echo "list created successfully";
