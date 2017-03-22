@@ -1,6 +1,6 @@
 <?php
 
- include 'connect.php';
+include 'connect.php';
 
 try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
